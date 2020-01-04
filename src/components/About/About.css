@@ -1,0 +1,46 @@
+.about {
+  padding: 20px 20px;
+  width: 55%;
+  margin-top: 15vh;
+  margin-left: -5%;
+  padding-bottom: 15vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about {
+    margin-top: 50px;
+  }
+}
+
+.heading {
+  color: #bd5d38;
+  font-size: 40px;
+}
+
+.about .about-heading {
+  padding-bottom: 20px;
+}
+
+.about .about-paragraph {
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  font-size: 18px;
+}

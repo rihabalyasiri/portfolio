@@ -1,0 +1,34 @@
+.card {
+  margin-top: 20vh !important;
+    
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-wrapper .fab,
+.icon-wrapper .far {
+  font-size: 25px;
+}
+
+.icon-wrapper .fa-xing:hover {
+  color: #126567;
+}
+
+.icon-wrapper .fa-linkedin-in:hover {
+  color: #007bb5;
+}
+
+.icon-wrapper .fa-github:hover {
+    color:#333;
+}
+
+.icon-wrapper .fa-envelope:hover {
+  color: #f94877;
+}
+
+.card .content {
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  height: 10vh;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-block {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  padding-left: 40px;
+  color: black;
+}
+
+@media only screen and (min-width: 700px) {
+  .footer-link {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+}
+
+.footer-link:hover {
+  color: #bd5d38;
+}
+
+.copyright {
+  margin-bottom: 0;
+}

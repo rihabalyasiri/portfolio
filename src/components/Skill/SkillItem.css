@@ -1,0 +1,89 @@
+.skill-item {
+  width: 300px;
+  height: 70px;
+}
+.skill-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress {
+  width: 300px;
+  height: 18px;
+  display: flex;
+  background: #ccc;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.progress-yes {
+  height: 100%;
+  background: #38c95f;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.progress-no {
+  height: 100%;
+  background: #ccc;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.progress-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #38c95f;
+  position: absolute;
+  top: -10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.progress-circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*********   skill list   **********/
+
+.skill-list {
+  width: 60%;
+  margin-top: -10vh;
+  height: auto !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .skill-list {
+    width: 90%;
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-list {
+    /* height: 100vh; */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skill-list {
+    /* height: 155vh; */
+  }
+}
+
+.skill-list-heading {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 25% 20%;
+}

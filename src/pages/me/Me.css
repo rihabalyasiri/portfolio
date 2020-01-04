@@ -1,0 +1,31 @@
+.landing-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 35vh;
+  flex-wrap: wrap;
+  margin-top: -5%;
+}
+
+.empty-div {
+  width: 40%;
+}
+
+@media only screen and (max-width: 500px) {
+  .landing-page {
+    margin-top: -25%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .landing-page {
+    padding-bottom: 140vh;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
