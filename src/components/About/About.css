@@ -39,8 +39,20 @@
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+  .about .about-heading {
+   font-size:30px ;
+  }
+}
+
 .about .about-paragraph {
   line-height: 1.7;
   letter-spacing: 0.4px;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 450px) {
+  .about .about-paragraph {
+    font-size: 15px;
+  }
 }

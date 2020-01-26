@@ -65,25 +65,26 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .skill-list {
-    /* height: 100vh; */
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .skill-list {
-    /* height: 155vh; */
-  }
-}
 
 .skill-list-heading {
   padding-top: 60px;
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 400px) {
+  .skill-list-heading {
+    font-size: 30px;
+  }
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 25% 20%;
+}
+
+@media only screen and (max-width: 400px) {
+  .grid {
+    grid-gap: 15% 20%;
+  }
 }

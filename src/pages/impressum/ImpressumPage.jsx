@@ -3,7 +3,7 @@ import NavBarContact from "../../components/NavBar/NavBarContact";
 import Footer from "../../components/Footer/Footer";
 import ContactForm from "../../components/Contact/ContactForm";
 
-const ContactPage = () => {
+const ImpressumPage = () => {
   return (
     <div className="contact-page">
       <NavBarContact />
@@ -16,4 +16,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default ImpressumPage;

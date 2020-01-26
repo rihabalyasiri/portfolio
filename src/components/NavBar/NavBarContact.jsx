@@ -11,7 +11,7 @@ const NavBarContact = props => {
       <Link to="/projects" className="item " >
         PROJECTS
       </Link>
-      <Link to="/contact" className="item active">CONTACT</Link>
+      <Link to="/contact" className="item active">Impressum and Datenschutz</Link>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const SkillList = () => {
           circlePos = "85"
         />
         <SkillItem
-          language="CSS"
+          language="CSS and Saas"
           rate="95"
           progressYesWidth="90"
           progressNoWidth="5"
