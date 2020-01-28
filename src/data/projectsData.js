@@ -18,7 +18,7 @@ const projectsData = [
   {
     title: "Code For Good",
     description:
-      "Final project in Supercode Web Development Bootcamp: where startups and companies with small budget can make application for the projectthat they need, projects would be made from participants of programming school ",
+      "Final project in Supercode Web Development Bootcamp: where startups and companies with a small budget can make applications for the project that they need, projects would be made from participants of programming school ",
     tools: ["HTML", "CSS", "JavaScript", "React.js"],
     projectLink: "https://code-for.herokuapp.com/",
     codeLink: "https://github.com/rihabalyasiri/codeForGood.git"
@@ -26,7 +26,7 @@ const projectsData = [
   {
     title: "News App",
     description:
-      "News App with four languages English, Turkish, French and german, data come from News API",
+      "News App with four languages: English, Turkish, French and German, data come from News API",
     tools: ["HTML", "CSS", "JavaScript", "API"],
     projectLink: "https://rihabalyasiri.github.io/news-app-api/",
     codeLink: "https://github.com/rihabalyasiri/news-app-api.git"
@@ -34,7 +34,7 @@ const projectsData = [
   {
     title: "Weather App",
     description:
-      "Where you can find the weather of your city or another cities of your wish.",
+      "Where you can find the weather of your city or any other cities you wish.",
     tools: ["API", "CSS", "JavaScript", "React.js"],
     projectLink: "https://rihabalyasiri.github.io/weather-api/",
     codeLink: "https://github.com/rihabalyasiri/weather-api.git"
@@ -94,7 +94,7 @@ const projectsData = [
   },
   {
     title: "Design Interior Website",
-    description: "Design your home with the modern furniture.",
+    description: "Design your home with modern furniture.",
     tools: ["HTML", "CSS", "UI/UX", "Responsive"],
     projectLink: "https://rihabalyasiri.github.io/design-interior/",
     codeLink: "https://github.com/rihabalyasiri/design-interior.git"
